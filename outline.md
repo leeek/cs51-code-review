@@ -64,11 +64,13 @@ Tips:
 **Key Idea**: Recursion (understand it, be comfortable with it, use it)
 
 Recall `map`:
-```let rec map f lst = 
+
+~~~
+let rec map f lst = 
   match lst with
   | [] -> []
   | hd :: tl -> (f hd) :: (map f tl);;
-```
+~~~
 
 What is the type signature of `map`?
 
