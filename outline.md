@@ -59,11 +59,7 @@ Tips:
 - `.gitignore` to ignore certain files. Theres on in the base of this repo,
   that ignore OCaml build artifacts
 
-### Lab1 review
-See `1/cr1_code_examples.ml`. My comments are in `(** *)`,
-notice the double asterisk
-
-### Other review:
+### Review of higher-order functions:
 Recall `map`:
 `let rec map f lst = 
   match lst with
@@ -71,6 +67,8 @@ Recall `map`:
   | hd :: tl -> (f hd) :: (map f tl);;`
 
 What is the type signature of `map`?
+
+- see `code-review-1.ml` file for some examples of designing code
 
 ### Other notes:
 - Compiling and Running
