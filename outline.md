@@ -36,7 +36,7 @@
 
 ### Abstract Syntax Tree
 
-![euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/1147px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png){width : 200 px ;}
+![euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/1147px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png){width : 150 px ;}
 
 ### Lab1 review
 See `1/cr1_code_examples.ml`. My comments are in `(** *)`,
