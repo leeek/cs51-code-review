@@ -2,6 +2,21 @@
 
 ## 2/3
 
+### Warm-up: Abstract Syntax Tree
+      -
+      |
+      |
+      -
+      ^
+     / \
+    /   \ 
+    5    3
+
+What does this above expression mean?
+
+![euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/1147px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png){width : 30% ;}
+
+
 ### Logistics
 - Any questions on logistical matters?
 
@@ -34,9 +49,7 @@
 - `.gitignore` to ignore certain files. Theres on in the base of this repo,
   that ignore OCaml build artifacts
 
-### Abstract Syntax Tree
 
-![euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/1147px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png){width : 30% ;}
 
 ### Lab1 review
 See `1/cr1_code_examples.ml`. My comments are in `(** *)`,
