@@ -64,10 +64,11 @@ Tips:
 **Key Idea**: Recursion (understand it, be comfortable with it, use it)
 
 Recall `map`:
-`let rec map f lst = 
+```let rec map f lst = 
   match lst with
   | [] -> []
-  | hd :: tl -> (f hd) :: (map f tl);;`
+  | hd :: tl -> (f hd) :: (map f tl);;
+```
 
 What is the type signature of `map`?
 
@@ -81,8 +82,9 @@ What is the type signature of `map`?
   - Then run `./ps1_tests.byte` to run the tests (that you should be writing!)
 - Tips for pset1
   - write tests
-  - when you're not sure about something, just try running it
+  - when you're not sure about something, just try running it in the top-level
 - Miscellaneous
-  - `fold` is a very power higher-order function that people don't really use
+  - Use the strongly-typed nature of Ocaml to help with debugging
+  - `fold` is a very power higher-order function that people might not use as much as they could/should
     - keep this in mind
     - think about `fold_left` vs. `fold_right` (e.g. fold FROM the left, fold FROM the right)
