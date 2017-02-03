@@ -16,10 +16,10 @@ What does this above expression mean?
 
 Why should you care about abstract syntax trees? (Think if you had to actually write a compiler -- i.e. translate code into 1's and 0's for the computer to execute. How would you do that?)
 
-![euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/1147px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png | width = 50%)
+![euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/1147px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png)![100][200]left
 
 ### Logistics
-- Any questions on logistical matters?
+- Any questions on logistics?
 
 ### Text Editors
 - command line (primarily, also available as GUI)
