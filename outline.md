@@ -24,6 +24,7 @@ Implement a function `fib` that returns the nth Fibonacci number. `fib 0 = 0`, a
 
 ### Tips and Logistics
 Tips:
+
 - Especially for the first few weeks, write as much Ocaml as you can to get used to the language
 - The readings and the exercises are great for this -- e.g. set aside a 30 minute slot where you commit yourself to going through this before lecture/lab
 - Don't worry if things are confusing -- you'll get the hang of it soon enough
