@@ -80,3 +80,8 @@ What is the type signature of `map`?
   - Then run `./ps1_tests.byte` to run the tests (that you should be writing!)
 - Tips for pset1
   - write tests
+  - when you're not sure about something, just try running it
+- Miscellaneous
+  - `fold` is a very power higher-order function that people don't really use
+    - keep this in mind
+    - think about `fold_left` vs. `fold_right` (e.g. fold FROM the left, fold FROM the right)
