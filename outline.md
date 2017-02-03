@@ -14,11 +14,20 @@
 
 What does this above expression mean?
 
-Why should you care about abstract syntax trees? (Think if you had to actually write a compiler -- i.e. translate code into 1's and 0's for the computer to execute. How would you do that?)
+Why should you care about abstract syntax trees (they seem kind of random)? (Think if you had to actually write a compiler -- i.e. translate code into 1's and 0's for the computer to execute. How would you do that?)
 
 ![euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/400px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png)
 
-### Logistics
+### Warm-up 2
+Implement a function `fib` that returns the nth Fibonacci number. `fib 0 = 0`, and `fib 1 = 1`, and `fib n = (fib (n-1)) + (fib (n-2))`. Note: use recursion, not loops.
+
+
+### Tips and Logistics
+Tips:
+- Especially for the first few weeks, write as much Ocaml as you can to get used to the language
+- The readings and the exercises are great for this -- e.g. set aside a 30 minute slot where you commit yourself to going through this before lecture/lab
+- Don't worry if things are confusing -- you'll get the hang of it soon enough
+
 - Any questions on logistics?
 
 ### Text Editors
@@ -54,34 +63,16 @@ Why should you care about abstract syntax trees? (Think if you had to actually w
 See `1/cr1_code_examples.ml`. My comments are in `(** *)`,
 notice the double asterisk
 
-### Other notes:
-- Options
-  - C malloc returns NULL on failure or an address on success
-  - OCaml malloc would return `None` on failure, or `Some address` on success
-  - Enforces checking for these error conditions in type system
-  ```
-  match x with
-  | Some v -> do_whatever
-  | None -> do_something_else
-  ```
-- Lists
-
-  ```
+### Other review:
+Recall `map`:
+`let rec map f lst = 
   match lst with
-  | hd :: hd2 :: tl -> do_something
-  ```
-  - if you use it you need to include a case that looks like hd :: [],
-    to handle 2 element lists
-- matching on multiple values:
+  | [] -> []
+  | hd :: tl -> (f hd) :: (map f tl);;`
 
-  ```
-  match x, y with
-  | [], [] -> ...
-  | hdx :: tlx, [] -> ..
-  ```
-- Tuples
-  - assume x has type (`int list * int list`)
-  - `a,b = x` (now a is the first `int list`, and b is the second)
+What is the type signature of `map`?
+
+### Other notes:
 - Compiling and Running
   - from the command line, run `make` (in your directory with `ps1.ml`)
     to compile your work
