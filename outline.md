@@ -60,6 +60,8 @@ Tips:
   that ignore OCaml build artifacts
 
 ### Review of higher-order functions:
+**Key Idea**: Recursion (understand it, be comfortable with it, use it)
+
 Recall `map`:
 `let rec map f lst = 
   match lst with
@@ -68,7 +70,7 @@ Recall `map`:
 
 What is the type signature of `map`?
 
-- see `code-review-1.ml` file for some examples of designing code
+- see `code-review-1.ml` file for some examples of code
 
 ### Other notes:
 - Compiling and Running
@@ -76,3 +78,5 @@ What is the type signature of `map`?
     to compile your work
   - run `./ps1.byte` to run it
   - Then run `./ps1_tests.byte` to run the tests (that you should be writing!)
+- Tips for pset1
+  - write tests
