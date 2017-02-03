@@ -28,6 +28,7 @@ Tips:
 - Especially for the first few weeks, write as much Ocaml as you can to get used to the language
 - The readings and the exercises are great for this -- e.g. set aside a 30 minute slot where you commit yourself to going through this before lecture/lab
 - Don't worry if things are confusing -- you'll get the hang of it soon enough
+  - If you feel that it would benefit you, tutoring from the Bureau of Study Counsel is available. Also you are welcome to reach out to me or anyone on the teaching staff with your concerns -- we are happy to help you!
 - Office hours are only on Monday and Tuesday; the pset is due Wednesday!
   -** Do not start your pset on Monday**. Work on it over the weekend until you finish or get stuck, get help to finish it up at office hours.
 
