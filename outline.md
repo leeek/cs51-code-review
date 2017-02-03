@@ -14,13 +14,14 @@
 
 What does this above expression mean?
 
-![euclidean algorithm](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/1147px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png){width : 30% ;}
+Why should you care about abstract syntax trees? (Think if you had to actually write a compiler -- i.e. translate code into 1's and 0's for the computer to execute. How would you do that?)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Abstract_syntax_tree_for_Euclidean_algorithm.svg/1147px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png" width="200">
 
 ### Logistics
 - Any questions on logistical matters?
 
-### Text Editor
+### Text Editors
 - command line (primarily, also available as GUI)
   - vim
     - super fast movement, using keystrokes strung together
@@ -33,9 +34,9 @@ What does this above expression mean?
   - TextEdit
     - messes up quotes sometimes
     - no syntax highlighting
-  - Sublime
+  - **Sublime Text 3**
     - I use this 95% of the time
-    - extensible and customizable with lots of packages
+    - extensible and customizable with lots of plugins
     - I personally vouch for this
     - staff-endorsed editor
   - Atom
@@ -48,8 +49,6 @@ What does this above expression mean?
   [awesome in browser example!](https://try.github.io/levels/1/challenges/1)
 - `.gitignore` to ignore certain files. Theres on in the base of this repo,
   that ignore OCaml build artifacts
-
-
 
 ### Lab1 review
 See `1/cr1_code_examples.ml`. My comments are in `(** *)`,
